@@ -116,6 +116,7 @@ class frames:
                 self.response_2.configure(text = "Good", bg = "light green")   
                 if self.bonus == True:
                     self.response_2.configure(text = "Bonus", bg = "light green")
+                    self.score += 1
                 self.frame2.configure(bg = "light green")
                 self.question_label.configure(bg = "light green")
                 self.answer_entry.delete(0, END)
